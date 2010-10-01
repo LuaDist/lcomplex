@@ -1,0 +1,19 @@
+--- This file is part of LuaDist project
+--note: Conflicts with "matrix" package, which has "complex.lua" in LMOD !!!
+
+name = "lclomplex"
+version = "5.1"
+
+desc = "Provides support for complex numbers in Lua using the functions available in C99."
+author = "Luiz Henrique de Figueiredo"
+license = "Public Domain"
+maintainer = "Peter Kapec"
+url = "http://www.tecgraf.puc-rio.br/~lhf/ftp/lua/"
+
+depends = {
+	"lua ~> 5.1"
+}
+
+conflicts = {
+	"matrix"
+}
