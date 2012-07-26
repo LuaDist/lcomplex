@@ -1,7 +1,7 @@
 --- This file is part of LuaDist project
 --note: Conflicts with "matrix" package, which has "complex.lua" in LMOD !!!
 
-name = "lclomplex"
+name = "lcomplex"
 version = "5.1"
 
 desc = "Provides support for complex numbers in Lua using the functions available in C99."
