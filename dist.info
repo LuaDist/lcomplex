@@ -1,0 +1,26 @@
+type = "x86"
+arch = "Windows"
+author = "Luiz Henrique de Figueiredo"
+depends = {
+[[lua ~> 5.1]],
+}
+
+desc = "Provides support for complex numbers in Lua using the functions available in C99."
+conflicts = {
+[[matrix]],
+}
+
+version = "5.1"
+maintainer = "Peter Kapec"
+files = {
+Unspecified = {
+[[lib\lua\complex.dll]],
+[[share\lcomplex\README]],
+[[share\lcomplex\test\test.lua]],
+}
+,
+}
+
+license = "Public Domain"
+name = "lcomplex"
+url = "http://www.tecgraf.puc-rio.br/~lhf/ftp/lua/"
